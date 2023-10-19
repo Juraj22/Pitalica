@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(241, 252, 255);
+}
+
+#quiz-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#question-container {
+  text-align: center;
+}
+
+#question {
+  font-family: fantasy;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+#answer {
+  width: 20%;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#result-container {
+  display: none;
+}
+
+#result-image {
+  max-width: 100%;
+  margin: 15px auto 0px;
+}
+
+.correct-answer {
+  color: green;
+}
